@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block title %}
+            <title>Casa Criativa</title>
+        {% endblock %}
+
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body id={{ bodyId }}>
+
+        <div id="container">
+
+            {% block content %}
+            {% endblock %}
+
+        </div>
+
+        {% include 'modal.html' %}
+
+
+
+        <script src="/scripts.js"></script>
+    </body>
+</html>

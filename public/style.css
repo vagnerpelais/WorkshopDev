@@ -148,13 +148,14 @@ footer a {
 .idea {
     display: flex;
 
+
     background-color: #fff;
     box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
     border-radius: 8px;
 
-    padding: 32px;
+    padding: 30px;
 
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 }
 
 .idea img {
@@ -185,7 +186,7 @@ footer a {
 #modal {
     background: #ff5e84;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -203,7 +204,7 @@ footer a {
 }
 
 #modal .content {
-    margin-top: 15%;
+    margin-top: 5%;
 
     color: white;
 }
